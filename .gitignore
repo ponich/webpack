@@ -1,0 +1,10 @@
+/.idea
+/node_modules
+/vendor
+/.vscode
+/.vagrant
+npm-debug.log
+yarn-error.log
+.phpstorm.meta.php
+composer.lock
+package-lock.json

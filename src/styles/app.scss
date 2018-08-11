@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i&amp;subset=cyrillic');
+@import "variables";
+@import "~bootstrap/scss/bootstrap";
+
+@import "~font-awesome/scss/font-awesome";
+
+.btn {
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.7px;
+  outline: none;
+  border: none;
+  padding: 20px 30px;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 22.4px;
+  min-width: 140px;
+  display: inline-block;
+
+  &.btn-red {
+    background: $color-red;
+    color: $color-white;
+  }
+
+  &:hover {
+    text-decoration: none;
+    outline: 2px solid #ccc;
+  }
+}
+
+.coffee{
+  width: 275px;
+  height: 206px;
+  background: url(../images/coffee.jpg) no-repeat;
+  background-size: cover;
+
+}

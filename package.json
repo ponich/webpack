@@ -1,0 +1,34 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "npm run development",
+    "development": "webpack --progress --hide-modules",
+    "watch": "npm run development -- --watch",
+    "live": "webpack-dev-server --output-public-path=/build/",
+    "watch-poll": "npm run watch -- --watch-poll",
+    "prod": "npm run production",
+    "production": "webpack --no-progress --hide-modules --mode=production"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "file-loader": "^1.1.11",
+    "font-awesome": "^4.7.0",
+    "mini-css-extract-plugin": "^0.4.1",
+    "node-sass": "^4.9.2",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.22.0",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.4"
+  }
+}
