@@ -3,6 +3,7 @@
 /vendor
 /.vscode
 /.vagrant
+dist/
 npm-debug.log
 yarn-error.log
 .phpstorm.meta.php

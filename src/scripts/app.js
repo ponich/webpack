@@ -1,11 +1,13 @@
-import "styles/app.scss"
-import jquery from "jquery";
-import bootstrap from "bootstrap";
-window.Popper = require('popper.js').default;
+require('./bootstrap');
 
-try {
-    window.$ = window.jQuery = jquery;
-} catch (e) {
-}
+
+import Vue from "vue"
+
+
+Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+
+const app = new Vue({
+    el: '#app'
+});
 
 
